@@ -13,7 +13,7 @@ const Hero = () => {
           We`re more than a doc. Or a table. Customize Notion to work the way
           you do.
         </div>
-        <div className="max-w-fit mt-4 rounded font-semibold border-x border-gray-300 cursor-pointer bg-red-400 text-white p-2 text-xs hover:bg-red-500 ">
+        <div className="max-w-fit mt-4 rounded font-semibold border-x border-gray-300 cursor-pointer bg-red-500 text-gray-200  p-2 text-xs hover:bg-red-600 ">
           Try Notion free
         </div>
         <div className="pt-4 text-gray-500 text-sm">Trusted by teams at</div>

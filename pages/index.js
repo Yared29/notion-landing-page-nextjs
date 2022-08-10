@@ -1,6 +1,9 @@
+import Image from "next/image";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
 import SectionDetailWithPic from "../components/SectionDetailWithPic";
+import SliderInfoSection from "../components/SliderInfoSection";
+import TryNotionSectionWithButton from "../components/TryNotionSectionWithButton";
 
 export default function Home() {
   return (
@@ -45,6 +48,10 @@ export default function Home() {
           detail2="You'll never want for resources or support."
         />
       </div>
+      <div className="h-px bg-gray-300 mt-20 mb-20" />
+      <TryNotionSectionWithButton />
+      <SliderInfoSection />
+      <div className="h-px bg-gray-300 mt-20 mb-20" />
     </div>
   );
 }

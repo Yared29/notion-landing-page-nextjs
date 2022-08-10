@@ -4,7 +4,7 @@ import NavItem from "./NavItem";
 
 const NavBar = () => {
   return (
-    <nav className="flex justify-between items-center pb-2">
+    <nav className="flex justify-between items-center pb-8">
       <div className="flex items-center">
         <div className="pr-4 pt-2">
           <Image src="/logo.svg" alt="logo" width="64" height="30" />
@@ -22,7 +22,7 @@ const NavBar = () => {
       <ul className="flex  items-center space-x-2">
         <NavItem title="Contact sales" />
         <NavItem title="Login" />
-        <li className="rounded font-semibold border-x m-1 border-gray300 cursor-pointer bg-red-400 text-white p-1 text-xs hover:bg-red-500 ">
+        <li className="rounded font-semibold border-x m-1 border-gray300 cursor-pointer bg-red-500 text-gray-200 p-1 text-xs hover:bg-red-600 ">
           Try Notion free
         </li>
       </ul>
