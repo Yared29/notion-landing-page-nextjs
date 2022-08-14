@@ -4,7 +4,7 @@ import NavItem from "./NavItem";
 
 const NavBar = () => {
   return (
-    <nav className="flex justify-between items-center pb-8">
+    <nav className="flex justify-between items-center ">
       <div className="flex items-center">
         <div className="pr-4 pt-2">
           <Image src="/logo.svg" alt="logo" width="64" height="30" />
