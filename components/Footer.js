@@ -83,7 +83,7 @@ const footerLinks = [
 const Footer = () => {
   return (
     <div>
-      <div className="flex justify-evenly items-start">
+      <div className="xs:flex justify-evenly items-start hidden">
         <Image src="/logo.svg" alt="logo" width="64" height="30" />
         {footerLinks.map((data) => (
           <FooterItem key={data.title} data={data} />
