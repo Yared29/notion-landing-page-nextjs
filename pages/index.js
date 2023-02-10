@@ -54,10 +54,12 @@ export default function Home() {
       </div>
       <div className="h-px bg-gray-300 mt-20 mb-20" />
       <TryNotionSectionWithButton />
-      <SliderInfoSection />
+      <div className="hidden md:block">
+        <SliderInfoSection />
+      </div>
       <div className="h-px bg-gray-300 mt-20 mb-20" />
       <div className="flex justify-between mb-20">
-        <div className="max-w-md">
+        <div className="max-w-md  mx-auto sm:m-0 sm:text-start text-center">
           <div className="text-black font-bold text-3xl">
             Start with a template.
           </div>
@@ -67,11 +69,11 @@ export default function Home() {
           <div className="text-gray-500 text-sm font-semibold pt-2">
             Choose from thousands of free, pre-built setups — for work and life.
           </div>
-          <div className="max-w-fit mt-4 rounded font-semibold border border-gray-300 cursor-pointer bg-white text-black p-2 text-xs hover:bg-gray-300 ">
+          <div className=" mx-auto sm:m-0 max-w-fit mt-4 rounded font-semibold border border-gray-300 cursor-pointer bg-white text-black p-2 text-xs hover:bg-gray-300 ">
             See all templates →
           </div>
         </div>
-        <div>
+        <div className="hidden sm:block">
           <Image
             src="/blocks-spot.png"
             height="91"
@@ -82,8 +84,8 @@ export default function Home() {
         {/* Slideshow here */}
       </div>
       <div className="h-px bg-gray-300 mt-20 mb-20" />
-      <div className="flex justify-between mb-20">
-        <div className="max-w-md">
+      <div className="flex justify-between mb-20 mx-auto sm:m-0 sm:text-start text-center">
+        <div className="max-w-md mx-auto sm:m-0 sm:text-start text-center">
           <div className="text-black font-bold text-3xl">
             Used by the world`s most
           </div>
@@ -91,15 +93,17 @@ export default function Home() {
           <div className="text-gray-500 text-sm font-semibold pt-2">
             innovative teams
           </div>
-          <div className="max-w-fit mt-4 rounded font-semibold border border-gray-300 cursor-pointer bg-white text-black p-2 text-xs hover:bg-gray-300 ">
+          <div className="  mx-auto sm:m-0 max-w-fit mt-4 rounded font-semibold border border-gray-300 cursor-pointer bg-white text-black p-2 text-xs hover:bg-gray-300 ">
             Read all customer stories →
           </div>
         </div>
-        <div>
+        <div className="hidden sm:block">
           <Image src="/teamwork.png" height="230" width="360" alt="teamwork" />
         </div>
       </div>
-      <Testimonies />
+      <div className="hidden sm:block">
+        <Testimonies />
+      </div>
       <div className="h-px bg-gray-300 mt-20 mb-20" />
       <div className="flex align-middle justify-center">
         <div className="align-middle text-center items-center">
@@ -116,7 +120,7 @@ export default function Home() {
           <div className="text-md text-gray-500 font-semibold p-1">
             Add your whole team as your needs grow.
           </div>
-          <div className="flex justify-center p-2">
+          <div className="flex justify-center p-2 md:pb-0 pb-10">
             <div className="max-w-fit rounded font-semibold border border-gray-600 px-8 border-gray300 cursor-pointer bg-red-500 text-gray-200 py-2 text-xs hover:bg-red-600 ">
               Get Notion free
             </div>
@@ -130,8 +134,8 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <div className="max-w-fit relative bottom-20 ">
-          <div className="pl-20">
+        <div className="max-w-fit relative  bottom-20 pb-10 sm:pb-10">
+          <div className="pl-20 hidden md:block">
             <Image
               src="/sitting-character.png"
               height="260"
@@ -140,7 +144,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="relative bottom-20 ">
+        <div className="relative bottom-20 hidden xs:block">
           <div className="h-px bg-gray-300 " />
         </div>
       </div>
