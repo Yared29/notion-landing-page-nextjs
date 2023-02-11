@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/notion-app-icon-3d.png" />
       </Head>
-      <div className="container max-w-7xl mx-auto my-2 px-20 py-2">
+      <div className="container lg:max-w-7xl mx-auto my-2 px-5 lg:px-20 py-2">
         <div className="sticky top-0 z-50 bg-white">
           <NavBar />
         </div>
